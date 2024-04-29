@@ -84,7 +84,7 @@ color: #FFFFFF;
 
 .meme-image{
   position: absolute;
-  top: 42%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 } 
@@ -111,7 +111,15 @@ color: #FFFFFF;
 }
 @media (max-width:768px){
   .meme-image{
-      margin-top: 30px;  }
+      margin-top: 0px;  
+    }
+    .meme{
+      margin-top: 80px;
+    }
+      .main-btn{
+        width: 320px;
+    }
+    
 }
 @media (max-width:640px){
   .meme-image{
